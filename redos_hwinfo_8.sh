@@ -54,7 +54,7 @@ EOT
 runion "DATE" "date"
 runion "VERSION" "echo $SCRIPT_VERSION"
 ##runion "INSTALLING DEPENDECIES" "dnf install -y inxi stress-ng lsscsi p7zip hwinfo hdparm"
-runion "INSTALLING DEPENDECIES" "dnf install -y inxi  lsscsi p7zip hwinfo hdparm"
+
 
 
 runion "BASEBOARD INFO" "dmidecode -t baseboard"
